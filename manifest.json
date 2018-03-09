@@ -4,7 +4,7 @@
   "version": "0.1",
 
   "background": {
-    "persistent": false,
+    "persistent": true,
     "scripts": [ "background.js", "browser.js" ]
   },
 
