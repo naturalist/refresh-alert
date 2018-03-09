@@ -1,0 +1,15 @@
+{
+  "name": "RefreshAlert",
+  "description": "Tells you when you page finishes refreshing",
+  "version": "0.1",
+
+  "background": {
+    "persistent": false,
+    "scripts": [ "background.js" ]
+  },
+
+  "permissions": [ "tabs", "notifications" ],
+
+  "manifest_version": 2
+
+}
