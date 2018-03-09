@@ -5,7 +5,19 @@
 
   "background": {
     "persistent": false,
-    "scripts": [ "background.js" ]
+    "scripts": [ "background.js", "browser.js" ]
+  },
+
+  "icons": {
+    "32": "refresh.png",
+    "128": "refresh.png"
+  },
+
+  "browser_action": {
+      "default_popup": "browser.html",
+      "default_icon": {
+          "32": "refresh.png"
+      }
   },
 
   "permissions": [ "tabs", "notifications" ],
